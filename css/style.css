@@ -55,6 +55,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -71,6 +72,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     font-size: 1rem;
   }
@@ -95,6 +97,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -112,6 +115,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     padding: 2rem 0;
   }
   
@@ -138,6 +142,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -167,6 +172,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -385,12 +391,14 @@
 .middle-section{
     height: 1000px;
     display: flex;
+  
 }
 
 .left-part{
     background-color:white;
     width:800px;
     display: flex;
+  
     flex-direction: column;
     
 }
@@ -399,6 +407,7 @@
     height: 250px;
     width: 700px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -432,6 +441,7 @@
     width: 650px;
     background-color:rgba(164, 176, 190,1.0);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 .inside-block-content2{
@@ -454,9 +464,9 @@
 
 
 .right-part{
-    background-color:rgba(206, 214, 224,1.0);
-    width:700px;
-    height: 999px;
+  background-color:rgba(206, 214, 224,1.0);
+  width:700px;
+  height: 999px;
 
 
 }
@@ -497,6 +507,7 @@ margin-left: 100px;
     height: 80px;
     width: 500px;
     display: flex;
+    flex-wrap: wrap;
     margin-left: 300px;
 }
 .search-title{
